@@ -1,0 +1,28 @@
+body {
+  width: 90%;
+  overflow: hidden;
+  margin: 50px auto;
+
+}
+
+#frmRegPersona {
+  width: 40%;
+  float: left;
+}
+
+#tblPersonas {
+  width: 50%;
+  float: left;
+}
+
+#btnRegistrarPersona {
+  margin: 20px;
+}
+
+input[type="text"] {
+  margin: 10px 5px 0 0;
+}
+
+label {
+  width: 18%;
+}

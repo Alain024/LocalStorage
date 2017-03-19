@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <form id="frmRegPersona">
+    <div class="input-container">
+      <label for="txtCedula">Cedula:</label>
+      <input type="text" id="txtCedula">
+    </div>
+
+    <div class="input-container">
+      <label for="txtNombre">Nombre:</label>
+      <input type="text" id="txtNombre">
+    </div>
+
+    <input type="submit" value="Registrar" id="btnRegistrarPersona" class="btn btn-success">
+  </form>
+
+  <table id="tblPersonas" class="table">
+    <thead>
+      <tr>
+        <th>Cedula</th>
+        <th>Nombre</th>
+        <th></th>
+      </tr>
+    </thead>
+  </table>
+  <script src="logicaNegocios.js"></script>
+  <script src="logicaInterfaz.js"></script>
+</body>
+</html>
