@@ -26,3 +26,24 @@ input[type="text"] {
 label {
   width: 18%;
 }
+
+.error {
+  background: rgba(231, 76, 60,.7);
+}
+
+.divError {
+  background: #e74c3c;
+  font-size: 16px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.ocultar {
+  visibility: hidden;
+}
+
+.mostrar {
+  visibility: visible;
+}

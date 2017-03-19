@@ -10,30 +10,36 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="divError">Por favor revise los campos resaltados</div>
+
+  <h2>Registrar Personas</h2>
   <form id="frmRegPersona">
     <div class="input-container">
       <label for="txtCedula">Cedula:</label>
-      <input type="text" id="txtCedula">
+      <input type="text" id="txtCedula" required>
     </div>
 
     <div class="input-container">
       <label for="txtNombre">Nombre:</label>
-      <input type="text" id="txtNombre">
+      <input type="text" id="txtNombre" required>
     </div>
 
-    <input type="submit" value="Registrar" id="btnRegistrarPersona" class="btn btn-success">
+    <input type="button" value="Registrar" id="btnRegistrarPersona" class="btn btn-success">
   </form>
 
-  <table id="tblPersonas" class="table">
-    <thead>
-      <tr>
-        <th>Cedula</th>
-        <th>Nombre</th>
-        <th></th>
-      </tr>
-    </thead>
+  <table id="tblPersonas" class="table table-hover">
+      <thead>
+            <tr>
+              <th>Cédula</th>
+              <th>Nombre</th>
+              <th></th>
+            </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
   </table>
-  <script src="logicaNegocios.js"></script>
-  <script src="logicaInterfaz.js"></script>
+  <script src="js/logicaNegocios.js"></script>
+  <script src="js/logicaInterfaz.js"></script>
 </body>
 </html>
